@@ -40,8 +40,8 @@ export default function MotifScatter() {
     // rejection sampling w/ min distance + center exclusion
     outer: for (let i = 0; i < COUNT; i++) {
       for (let tries = 0; tries < 200; tries++) {
-        let x = EDGE_MARGIN + rand() * (1 - 2 * EDGE_MARGIN);
-        let y = EDGE_MARGIN + rand() * (1 - 2 * EDGE_MARGIN);
+        const x = EDGE_MARGIN + rand() * (1 - 2 * EDGE_MARGIN);
+        const y = EDGE_MARGIN + rand() * (1 - 2 * EDGE_MARGIN);
 
         // push away from central rectangle
         if (

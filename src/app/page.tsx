@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="relative border-b border-indigo-900/60">
         {/* Sparse India (feather) + Ireland (harp) motifs */}
 
-
+<MotifScatter />
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-8">
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <div>
