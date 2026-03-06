@@ -45,10 +45,9 @@ export default function HomePage() {
               <div className="mt-6 space-y-1 text-sm text-indigo-100/90">
                 <p>
                   Email:{" "}
-                  <a className="underline hover:text-cyan-300" href="mailto:hello@duniya.ie">
-                    hello@duniya.ie
+                  <a className="underline hover:text-cyan-300" href="mailto:info@miniindia.ie">
+                    info@miniindia.ie
                   </a>{" "}
-                  (placeholder)
                 </p>
                 <p>
                   Phone:{" "}
@@ -256,7 +255,7 @@ export default function HomePage() {
             For partnerships and pilots, include your product category, current markets, certifications, and target timelines.
           </p>
           <div className="mt-6 grid gap-6 md:grid-cols-3">
-            <ContactLine label="Email" value="hello@duniya.ie (placeholder)" href="mailto:hello@duniya.ie" />
+            <ContactLine label="Email" value="info@miniindia.ie" href="mailto:info@miniindia.ie" />
             <ContactLine label="Phone" value="+353 857218803" href="tel:+353857218803" />
             <ContactLine
               label="Address"
@@ -267,7 +266,7 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="mailto:hello@duniya.ie"
+              href="mailto:info@miniindia.ie"
               className="inline-flex items-center rounded-lg bg-indigo-500 px-5 py-3 font-medium text-white hover:bg-indigo-600"
             >
               Email us
